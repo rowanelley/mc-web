@@ -12,7 +12,7 @@
         }
         body {
             margin: 0;
-            padding: 0;
+            padding: 20px 0; /* Add padding at the top and bottom of the page */
             font-family: Arial, Helvetica, sans-serif;
         }
         h1 {
@@ -22,13 +22,10 @@
             font-weight: 200;
             margin: 20px 0;
         }
-        h2 {
-            text-align: center;
-        }
         p {
             text-align: center;
             color: #05070a;
-            font-size: 18px;
+            font-size: 22px; /* Increased paragraph text size */
             margin: 10px 0;
         }
         .paragraph {
@@ -39,17 +36,16 @@
         }
         a {
             display: inline-block;
-            font-size: 32px;
+            font-size: 36px; /* Increased link font size */
             text-decoration: none;
             color: #8378c1;
-            margin-top: 10px;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border-radius: 8px;
         }
         a:hover {
             text-decoration: underline;
             color: #8378c1;
-        }
-        iframe {
-            margin-top: 10px;
         }
 
         /* Responsive styles */
@@ -60,8 +56,12 @@
             .paragraph {
                 width: 80%;
             }
+            p {
+                font-size: 20px; /* Slightly smaller on tablets */
+            }
             a {
-                font-size: 24px;
+                font-size: 40px; /* Larger links for tablets */
+                padding: 12px 24px;
             }
         }
 
@@ -70,10 +70,11 @@
                 font-size: 48px;
             }
             p {
-                font-size: 16px;
+                font-size: 18px; /* Slightly smaller text for small devices */
             }
             a {
-                font-size: 20px;
+                font-size: 44px; /* Larger links on mobile */
+                padding: 16px 32px;
             }
         }
     </style>
@@ -82,7 +83,7 @@
     <h1>ROWAN'S SERVER</h1>
     <div class="paragraph">
         <p>Server is live on play.rowanelley.xyz</p>
-        <a href="https://mc.rowanelley.xyz/gov">GOVERMENT<br/></a>
+        <a href="https://mc.rowanelley.xyz/gov">GOVERNMENT<br/></a>
     </div>
 </body>
 </html>
